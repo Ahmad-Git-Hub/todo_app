@@ -9,9 +9,8 @@ add_button = gui.Button("Add")
 
 
 window = gui.Window("my to do app" ,layout = [[label], [input_box, add_button]])
-
-
 window.read()
+print("Hello")
 window.close()
 
 
