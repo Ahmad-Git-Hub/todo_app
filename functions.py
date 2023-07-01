@@ -12,3 +12,8 @@ def write_todos(todos_arg, filepath=FILEPATH):
     """take a list as an input and a file path then put list content to the file"""
     with open(filepath, "w") as file_local:
         file_local.writelines(todos_arg)
+
+
+if __name__ == "__main__":
+    print("hello")
+    print(get_todos())
